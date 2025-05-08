@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840514085254",
+    "project_id": "machakwi-estates",
+    "storage_bucket": "machakwi-estates.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840514085254:android:7dd9057c986f79a7d64c07",
+        "android_client_info": {
+          "package_name": "com.machakwi_estates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB5fqlnujrrZgC8X7_-oaI1N54bQ0Hzls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

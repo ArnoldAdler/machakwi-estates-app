@@ -1,0 +1,4 @@
+npx expo install axios date-fns react-native-chart-kit react-native-event-listeners react-native-modalize react-native-modals react-native-portalize react-native-svg expo-notifications expo-device expo-updates @react-native-community/datetimepicker @react-native-community/slider expo-image-manipulator expo-image-picker react-native-progress
+
+
+npx expo install @supabase/supabase-js firebase
