@@ -24,11 +24,11 @@ export default function ReportsPieChart({ periodIdName }) {
 
   useEffect(() => {
     var data = reportTypes
-      .filter((category) => {
-        var total = getTotal(category.dataID);
-        if (total) return true;
-        else return false;
-      })
+      // .filter((category) => {
+      //   var total = getTotal(category.dataID);
+      //   if (total) return true;
+      //   else return false;
+      // })
       .map((category, i) => {
         if (category.dataID)
           return {

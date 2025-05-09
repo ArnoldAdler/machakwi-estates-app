@@ -2,7 +2,6 @@
   "expo": {
     "name": "Machakwi Estates App",
     "slug": "machakwi-estates",
-    "displayName": "Machakwi Estates App",
     "version": "1.5.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,9 +9,7 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.machakwi_estates",
-      "icon": "./assets/notification_icon_android.png"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -22,12 +19,6 @@
       "edgeToEdgeEnabled": true,
       "package": "com.machakwi_estates",
       "googleServicesFile": "./google-services.json",
-      "config": {
-        "notification": {
-          "icon": "./assets/notification_icon_android.png",
-          "color": "#000000"
-        }
-      }
     },
     "web": {
       "bundler": "metro",
@@ -59,7 +50,6 @@
     "owner": "arnoldadler",
     "updates": {
       "url": "https://u.expo.dev/e7278fb0-979f-4063-a758-2d31481392cc",
-      "runtimeVersion": "1.5.0"
     }
   }
 }
