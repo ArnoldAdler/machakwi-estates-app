@@ -75,7 +75,6 @@ export default function CattleCard({ data, navigation, style, color }) {
               flexDirection: "row",
             }}
           >
-            {/* ICoN START */}
             <View
               style={{
                 width: 70,
@@ -146,7 +145,6 @@ export default function CattleCard({ data, navigation, style, color }) {
           flexDirection: "row",
         }}
       >
-        {/* ICoN START */}
         <View
           style={{
             width: 70,
@@ -164,9 +162,7 @@ export default function CattleCard({ data, navigation, style, color }) {
               tintColor: getColor(data),
             }}
           />
-          ;
         </View>
-        {/* ICoN END */}
         <View
           style={{
             flex: 1,
@@ -225,62 +221,6 @@ export default function CattleCard({ data, navigation, style, color }) {
             )}
           </Text>
         </View>
-        {/* <View
-          style={{
-            paddingRight: 15,
-            alignItems: "flex-end",
-          }}
-        >
-          {/* <Text
-            style={{
-              fontWeight: "bold",
-              color: "black",
-              fontSize: 16,
-              marginTop: data.type == "expense" ? 0 : 15,
-              color: color
-                ? color
-                : data.type == "expense"
-                ? "#F8917B"
-                : data.type == "invoice"
-                ? "#33AD7A"
-                : "#348CEB",
-            }}
-          >
-            <Text
-              style={{
-                color: "#F8917B",
-                fontSize: 10,
-              }}
-            >
-              {data.invoiceId || data.supplier
-                ? (data.documentAmount || data.amount) - data.amountPaid == 0
-                  ? ""
-                  : data.amountPaid != 0
-                  ? `Half Paid Bal: $${
-                      (data.documentAmount || data.amount) - data.amountPaid
-                    }`
-                  : `Not Paid`
-                : null}
-            </Text>{" "}
-            {`$${toMoney(data.amount)}`}
-          </Text>
-
-          <Text
-            style={{
-              fontSize: 10,
-              textAlign: "right",
-            }}
-          >
-            <Text
-              style={{
-                width: 10,
-                overflow: "hidden",
-              }}
-            >
-              {data.type == "expense" ? truncateWithEllipsis(data.name) : ""}
-            </Text>
-          </Text> 
-        </View> */}
       </View>
     </TouchableOpacity>
   );
